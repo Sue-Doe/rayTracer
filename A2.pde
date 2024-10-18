@@ -39,15 +39,15 @@ void draw()  {
 
     
     float radius = 50;
-    Object sphereBlue = new Sphere(new PVector(0, 0, 550), radius, PHONG_COLORS);
-    Object sphereGreen = new Sphere(new PVector(130, -40, 350), radius, PHONG_COLORS_GREEN);
-    Object plane = new Plane(new PVector(1,1,0), new PVector(0,1,0), PHONG_COLORS_GREEN);
+    Object sphereGreen = new Sphere(new PVector(-45, 50, 150), radius,PHONG_COLORS_GREEN);
+    Object sphereBlue = new Sphere(new PVector(45, 50, 120), radius, PHONG_COLORS);
+    Object plane = new Plane(new PVector(1,1,2000), new PVector(0,1,0), PHONG_COLORS_GREEN);
     
 
     
-    shapes.add(plane);
-    shapes.add(sphereBlue);
     shapes.add(sphereGreen);
+    shapes.add(sphereBlue);
+    shapes.add(plane);
 
     shapes.fill();
 
