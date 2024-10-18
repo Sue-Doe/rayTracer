@@ -30,7 +30,7 @@ class Sphere extends Object{
                         float[] colorToFill =objectColor(newPoint, normalVector);
                         color bruh = color(colorToFill[0], colorToFill[1], colorToFill[2]);
                         buffer.pixels[index] = bruh;
-                        // println("filling circle");
+                        
                     }                
                 }
             }
